@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Arial, sans-serif;
+  background: #f4f7fb;
+}
+
+input,
+textarea,
+button{
+  font-family: inherit;
+}
+
+button{
+  transition: 0.3s;
+}
+
+button:hover{
+  opacity: 0.9;
+  transform: scale(1.02);
+}
+
+input:focus,
+textarea:focus{
+  border-color: #7f5af0;
+  outline: none;
+}
